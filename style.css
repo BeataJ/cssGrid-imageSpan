@@ -18,6 +18,14 @@ h2 {
   margin: 10px;
 }
 
+h2 span {
+  font-size: 20px;
+}
+
+p {
+  font-size: 15px;
+}
+
 .container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
