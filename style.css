@@ -33,6 +33,7 @@ p {
 }
 
 .container>div {
+  cursor: pointer;
   height: 210px;
   background-size: cover;
   background-attachment: fixed;
@@ -42,6 +43,11 @@ p {
   align-items: center;
   justify-content: center;
   text-align: center;
+}
+
+.container>div:hover {
+  opacity: .7;
+  transform: scale(.98);
 }
 
 .container>div:nth-of-type(1) {
