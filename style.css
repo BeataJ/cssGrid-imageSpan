@@ -9,9 +9,7 @@
 body {
   background: #333;
   color: #fff;
-  font-family: 'Roboto Mono',
-    monospace;
-  ;
+  font-family: 'Roboto Mono', monospace;
 }
 
 .container {
@@ -20,9 +18,15 @@ body {
   grid-gap: 10px;
 }
 
-.container>div {
+.container > div {
   height: 210px;
-  background: url('./img/terrebonne.jpg');
   background-size: cover;
   background-attachment: fixed;
+}
+
+.bg1 {
+  background: url('./img/bg1.jpg');
+}
+.bg2 {
+  background: url('./img/bg2.jpg');
 }
